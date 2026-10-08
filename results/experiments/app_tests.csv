@@ -1,0 +1,17 @@
+category,input,english,status,answer,confidence,seconds
+in-domain (test question),"Je, inachukua muda gani kutoka kupanda hadi kuvuna bamia?",,answered,siku 50 hadi 60,3.182,0.04
+in-domain (test question),Bamia changa zinakua na urefu gani?,,answered,sm5 hadi 10,4.171,0.03
+in-domain (test question),Mavuno ya bamia yanaweza rudiwa baada ya muda gani?,,answered,siku tatu,4.269,0.04
+out-of-domain (AfriQA trivia),Musikari Nazi Kombo anahudumu kama mbunge wa kuteuliwa katika eneo gan...,,declined,,-1.321,0.04
+out-of-domain (AfriQA trivia),Chama cha FORD-Kenya kilianzishwa na nani?,,declined,,-2.032,0.05
+"in-domain, written by me",Mikoa gani inafaa kwa kilimo cha tufaa?,Which regions suit growing apples?,answered,"Lushoto, Arusha, miteremko ya Kilimanjaro, Mbeya, Iringa, Njombe, Songea",3.231,0.03
+"near-domain (livestock), written by me",Ng'ombe wa maziwa wanahitaji chakula gani?,What food do dairy cows need?,declined,,-2.092,0.04
+"near-domain (weather), written by me",Hali ya hewa ikoje Dodoma leo?,How is the weather in Dodoma today?,declined,,-1.82,0.04
+English question about apples,How do I grow apples?,,declined,,-4.35,0.02
+one-word query,Tufaa,Apple,answered,ishara ya upendo,30.111,0.03
+empty input,,,invalid,,,0.0
+whitespace only,   ,,invalid,,,0.0
+punctuation only,????,,invalid,,,0.0
+gibberish,asdfghjkl qwerty zxcv,,declined,,-6.646,0.02
+numbers only,12345,,declined,,-6.64,0.02
+very long input,"Je, tufaa hustawi wapi? Je, tufaa hustawi wapi? Je, tufaa hustawi wapi...",The apple question repeated 80 times,answered,nyanda za juu,0.792,0.03

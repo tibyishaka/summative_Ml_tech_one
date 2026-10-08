@@ -1,0 +1,10 @@
+,val oracle,val e2e,test oracle,test e2e
+exact match,102,55,115,57
+retrieval failure (wrong passage),0,144,0,179
+no answer returned,0,0,0,0
+too long (contains gold),49,26,46,16
+too short (inside gold),16,7,20,10
+partial overlap (shifted boundary),32,22,41,20
+"wrong span, right sentence",39,26,28,14
+wrong sentence,92,50,85,39
+total,330,330,335,335

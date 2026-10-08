@@ -1,0 +1,22 @@
+{
+  "signal": "combined (logistic regression)",
+  "threshold": -0.4789738761645318,
+  "feature_mean": [
+    0.15253821906562434,
+    -6.039370265008626
+  ],
+  "feature_std": [
+    0.09331776253011775,
+    5.621297858285401
+  ],
+  "lr_coef": [
+    3.5213981453025838,
+    1.4608056507486245
+  ],
+  "lr_intercept": -0.013433571644350922,
+  "features": [
+    "normalized_bm25_top_score",
+    "zero_shot_margin"
+  ],
+  "target_in_domain_answered_on_val": 0.95
+}

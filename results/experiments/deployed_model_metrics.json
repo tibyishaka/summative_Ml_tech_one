@@ -1,0 +1,32 @@
+{
+  "model": "BiGRU + attention",
+  "seed": 43,
+  "best_epoch": 14,
+  "trainable_parameters": 1501698,
+  "chosen_by": "highest validation F1 (oracle passage) among the three architectures and all seeds",
+  "val": {
+    "oracle": {
+      "EM": 0.1788,
+      "F1": 0.2938
+    },
+    "end_to_end": {
+      "EM": 0.0879,
+      "F1": 0.188
+    }
+  },
+  "test": {
+    "oracle": {
+      "EM": 0.1791,
+      "F1": 0.2992
+    },
+    "end_to_end": {
+      "EM": 0.0776,
+      "F1": 0.1708
+    }
+  },
+  "refusal": {
+    "signal": "combined (logistic regression)",
+    "threshold": -0.4314512386869485,
+    "table_file": "e6_refusal_deployed.csv"
+  }
+}

@@ -1,0 +1,11 @@
+split,k,choose_by,EM,F1,chosen_passage_is_correct
+val,1,span score,0.1667,0.2722,0.5576
+val,3,span score,0.2212,0.321,0.5848
+val,3,margin,0.2242,0.3255,0.5909
+val,5,span score,0.2333,0.3421,0.5697
+val,5,margin,0.2333,0.3439,0.5727
+test,1,span score,0.1701,0.263,0.4597
+test,3,span score,0.2209,0.3263,0.5254
+test,3,margin,0.2179,0.3258,0.5254
+test,5,span score,0.2209,0.3379,0.4985
+test,5,margin,0.2149,0.33,0.4836

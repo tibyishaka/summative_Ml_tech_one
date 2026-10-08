@@ -1,0 +1,38 @@
+{
+  "system": "Deployed model: BiGRU + attention",
+  "n_test_questions": 335,
+  "oracle_EM": [
+    0.1791,
+    0.1373,
+    0.2209
+  ],
+  "oracle_F1": [
+    0.2992,
+    0.2577,
+    0.3423
+  ],
+  "end_to_end_EM": [
+    0.0776,
+    0.0507,
+    0.1075
+  ],
+  "end_to_end_F1": [
+    0.1708,
+    0.1391,
+    0.2047
+  ],
+  "retrieval_recall@1": [
+    0.4597,
+    0.4089,
+    0.5134
+  ],
+  "refusal_signal": "combined (logistic regression)",
+  "refusal_AUROC": [
+    0.9635,
+    0.9489,
+    0.9748
+  ],
+  "in_domain_answered": 0.9045,
+  "out_of_domain_refused": 0.8904,
+  "format": "(estimate, 95% CI low, 95% CI high)"
+}

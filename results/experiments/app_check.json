@@ -1,0 +1,21 @@
+{
+  "model": "BiGRU + attention",
+  "seed": 43,
+  "best_epoch": 14,
+  "val": {
+    "questions": 330,
+    "same_retrieved_passage": 330,
+    "same_answer_text": 330,
+    "largest_confidence_difference": 0.0005
+  },
+  "test": {
+    "questions": 335,
+    "same_retrieved_passage": 335,
+    "same_answer_text": 335,
+    "largest_confidence_difference": 0.0005
+  },
+  "in_domain_answered_app": 0.9045,
+  "out_of_domain_refused_app": 0.8904,
+  "out_of_domain_questions": 301,
+  "problems": []
+}
