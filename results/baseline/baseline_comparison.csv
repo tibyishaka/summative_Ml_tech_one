@@ -1,0 +1,5 @@
+system,split,oracle EM/F1,end-to-end EM/F1,OOD AUROC
+rule-based reader + BM25,val,0.0 / 0.1051,0.0 / 0.0706,0.9693
+rule-based reader + BM25,test,0.003 / 0.0933,0.003 / 0.0681,0.9629
+zero-shot XLM-R-base-SQuAD2 + BM25,val,0.3091 / 0.446,0.1667 / 0.2722,0.8927
+zero-shot XLM-R-base-SQuAD2 + BM25,test,0.3433 / 0.492,0.1701 / 0.263,0.9061

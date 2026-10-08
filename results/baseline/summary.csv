@@ -1,0 +1,3 @@
+split,n,retrieval recall@1,recall@5,recall@10,random window EM/F1 (oracle),whole sentence EM/F1 (oracle),window reader EM/F1 (oracle),window reader EM/F1 (BM25 top-1),OOD AUROC (normalized)
+val,330,0.5576,0.8727,0.9455,0.0 / 0.0474,0.0 / 0.1185,0.0 / 0.1051,0.0 / 0.0706,0.9693
+test,335,0.4597,0.806,0.8925,0.0 / 0.071,0.003 / 0.1179,0.003 / 0.0933,0.003 / 0.0681,0.9629
