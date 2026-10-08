@@ -1,0 +1,48 @@
+{
+  "passage_words": {
+    "min": 75,
+    "median": 150.0,
+    "mean": 152.7,
+    "max": 289
+  },
+  "question_words": {
+    "min": 3,
+    "median": 9.0,
+    "mean": 9.5,
+    "max": 19
+  },
+  "answer_words": {
+    "min": 1,
+    "median": 3.0,
+    "mean": 3.5,
+    "max": 23
+  },
+  "vocabulary": {
+    "passage_tokens": 46869,
+    "passage_types": 5368,
+    "type_token_ratio": 0.115,
+    "hapax_share_of_types": 0.53
+  },
+  "question_keyword_counts": {
+    "gani": 1269,
+    "nini": 138,
+    "nani": 4,
+    "lini": 34,
+    "wapi": 26,
+    "vipi": 23,
+    "ngapi": 103,
+    "kwa nini": 14,
+    "je": 1080,
+    "none of these": 365
+  },
+  "oov_vs_train": {
+    "val": {
+      "question_oov_token_rate": 0.052,
+      "passage_oov_token_rate": 0.097
+    },
+    "test": {
+      "question_oov_token_rate": 0.037,
+      "passage_oov_token_rate": 0.083
+    }
+  }
+}

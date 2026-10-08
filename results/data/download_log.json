@@ -1,0 +1,26 @@
+{
+  "hortidata.json": {
+    "source": "doi:10.7910/DVN/SORRLR",
+    "license": "CC0 1.0",
+    "bytes": 2656892,
+    "sha256": "35ae1579fea70011070f71188f530e1ebdfe4d3c9aac555ffb9ff17adf4d7a4d"
+  },
+  "afriqa_swa_train.jsonl": {
+    "source": "https://github.com/masakhane-io/afriqa/raw/main/data/queries/swa/queries.afriqa.swa.en.train.json",
+    "license": "CC BY-NC 4.0",
+    "bytes": 114297,
+    "sha256": "d5d03c1bf62de83e1dcd951483717773c02b1c2d6fd7fdaaa750bcc7c0751776"
+  },
+  "afriqa_swa_dev.jsonl": {
+    "source": "https://github.com/masakhane-io/afriqa/raw/main/data/queries/swa/queries.afriqa.swa.en.dev.json",
+    "license": "CC BY-NC 4.0",
+    "bytes": 115373,
+    "sha256": "cdc61a37956592318f98c8d6ca7cc3908bfbc5bf2cb30af4c13203c4f446a054"
+  },
+  "afriqa_swa_test.jsonl": {
+    "source": "https://github.com/masakhane-io/afriqa/raw/main/data/queries/swa/queries.afriqa.swa.en.test.json",
+    "license": "CC BY-NC 4.0",
+    "bytes": 87689,
+    "sha256": "0804e99d130a7d9357139686db1957aff33e82ab4d8879c65839af35329d690a"
+  }
+}

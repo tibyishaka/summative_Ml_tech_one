@@ -1,0 +1,6 @@
+step,description,records_before,records_after,records_modified
+0,raw records (one answer each),2231,2231,0
+1,"normalize question text (NFC, trim, collapse spaces)",2231,2231,2
+2,drop empty question or answer,2231,2231,0
+3,drop records whose answer is not at answer_start in the passage,2231,2231,0
+4,"drop duplicate (question, passage) pairs, keep first",2231,2225,0

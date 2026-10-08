@@ -1,0 +1,54 @@
+{
+  "vanila": [
+    {
+      "word": "mivanila",
+      "in_passages": 0,
+      "in_questions": 23,
+      "first_6_letters": "mivani"
+    },
+    {
+      "word": "mvanila",
+      "in_passages": 0,
+      "in_questions": 88,
+      "first_6_letters": "mvanil"
+    },
+    {
+      "word": "vanila",
+      "in_passages": 85,
+      "in_questions": 59,
+      "first_6_letters": "vanila"
+    },
+    {
+      "word": "vanilae",
+      "in_passages": 1,
+      "in_questions": 0,
+      "first_6_letters": "vanila"
+    }
+  ],
+  "tufaa": [
+    {
+      "word": "matufaa",
+      "in_passages": 1,
+      "in_questions": 0,
+      "first_6_letters": "matufa"
+    },
+    {
+      "word": "mitufaa",
+      "in_passages": 1,
+      "in_questions": 22,
+      "first_6_letters": "mitufa"
+    },
+    {
+      "word": "mtufaa",
+      "in_passages": 0,
+      "in_questions": 3,
+      "first_6_letters": "mtufaa"
+    },
+    {
+      "word": "tufaa",
+      "in_passages": 12,
+      "in_questions": 21,
+      "first_6_letters": "tufaa"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "val": {
+    "file": "afriqa_swa_dev.jsonl",
+    "raw": 417,
+    "flagged_agri_terms": 5,
+    "kept": 412
+  },
+  "test": {
+    "file": "afriqa_swa_test.jsonl",
+    "raw": 302,
+    "flagged_agri_terms": 1,
+    "kept": 301
+  }
+}
