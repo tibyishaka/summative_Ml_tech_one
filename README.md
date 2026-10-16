@@ -5,9 +5,9 @@ A domain-specific question-answering assistant for **Swahili horticulture** (fru
 The models taught in class (**BiGRU and BiLSTM with attention, and a Transformer encoder**) are built and trained from scratch, and compared with a pretrained multilingual Transformer. The best from-scratch model is saved in `app/model.pkl` and served by a **Streamlit** app that needs only `streamlit` and `numpy`.
 
 ## Project links
-- GitHub repository: TODO
+- GitHub repository:[Click here](https://github.com/tibyishaka/summative_Ml_tech_one)
 - Demo video (10 to 15 minutes): TODO
-- Live app (Streamlit Community Cloud): TODO
+- Live app (Streamlit Community Cloud): [Click here](https://tibyishaka-summative-ml-tech-one-appstreamlit-app-vlpszo.streamlit.app/)
 
 ## 1. Problem
 Smallholder horticultural producers need practical farming information, and Swahili has few question-answering resources. The project asks: how well can retrieval plus a neural reader answer Swahili horticulture questions from farming manuals, how do models trained from scratch compare with pretrained ones on such a small dataset, and can the system tell when a question is outside the domain?
@@ -127,4 +127,4 @@ Small data and test set (see the confidence intervals); one narrow domain; in-do
 ## 8. Acknowledgements, licences and AI assistance
 Code: MIT (see LICENSE). Datasets keep their own licences (table above). The pretrained model `deepset/xlm-roberta-base-squad2` is CC BY 4.0; XLM-R and AfroXLMR are MIT. Libraries: PyTorch, NumPy, pandas, scikit-learn, matplotlib, Streamlit, Hugging Face Transformers (pretrained experiments only). Papers are listed in the report's reference section.
 
-AI assistance: this project was developed with the help of an AI coding assistant (Claude Code) for code, drafting and checking. The author is responsible for understanding, running and verifying the work. [CONFIRM: wording to match course policy.]
+
