@@ -6,7 +6,7 @@ The models taught in class (**BiGRU and BiLSTM with attention, and a Transformer
 
 ## Project links
 - GitHub repository:[Click here](https://github.com/tibyishaka/summative_Ml_tech_one)
-- Demo video (10 to 15 minutes): TODO
+- Demo video : [Click here](https://drive.google.com/file/d/14PXy1jy9M_a7CAXN6IZTyNS7VszBqGv2/view?usp=sharing)
 - Live app (Streamlit Community Cloud): [Click here](https://tibyishaka-summative-ml-tech-one-appstreamlit-app-vlpszo.streamlit.app/)
 
 ## 1. Problem
