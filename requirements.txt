@@ -1,0 +1,16 @@
+# Core stack for training, evaluation and the demo app.
+# Versions are deliberately unpinned for now. After the first successful
+# Colab run, freeze the exact versions with `pip freeze` for reproducibility
+# (see docs/DECISIONS.md, D10).
+
+transformers      # pretrained-model experiments only (zero-shot, head-only, full fine-tune); the deployed app does not use it
+datasets          # loading/processing SQuAD-style data
+accelerate        # needed by Trainer on GPU
+evaluate          # EM/F1 (SQuAD metric)
+torch             # install the CUDA build on Colab; Colab already has it
+scikit-learn      # AUROC for the out-of-domain baseline
+numpy
+pandas
+matplotlib        # EDA and training-curve figures
+streamlit         # demo web app (the app itself needs only streamlit + numpy, see app/requirements.txt)
+sentencepiece     # needed by the XLM-R tokenizer

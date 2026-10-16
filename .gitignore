@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data: small enough raw files are re-downloadable, so we do not commit them.
+# Raw files are fetched by the notebook (see README). Keep the folders via .gitkeep.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model weights and training checkpoints (large). Publish weights on the
+# Hugging Face Hub instead and link them from the README.
+checkpoints/
+models_out/
+*.pt
+*.bin
+*.safetensors
+
+# Secrets and OS files
+.env
+.DS_Store
+Thumbs.db
+
+# NOTE: results/ is NOT ignored on purpose. Metrics JSON/CSV and figures are
+# small and the report's numbers must be traceable to files in the repo.
+
+# smoke-test outputs (never real results)
+results/_smoke/
+results/_smoke_*
+results/figures/_smoke_*
+results/baseline/zeroshot_cache.jsonl
+
+# bundle made for uploading to Colab
+colab_upload.zip
+outputs.zip
