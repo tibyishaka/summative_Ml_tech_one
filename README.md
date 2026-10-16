@@ -26,7 +26,7 @@ Smallholder horticultural producers need practical farming information, and Swah
 | val | 330 | 45 |
 | test | 335 | 43 |
 
-Out-of-domain questions after cleaning: 412 (validation) and 301 (test). Details: [docs/DATA_CARD.md](docs/DATA_CARD.md) and `results/data/`.
+Out-of-domain questions after cleaning: 412 (validation) and 301 (test). 
 
 ## 3. Method
 1. **Retrieval:** BM25, written from scratch.
@@ -104,12 +104,11 @@ Reference: the rule-based baseline reaches test F1 0.093 with the correct passag
 notebooks/   swahili_horticulture_qa.ipynb: the whole pipeline (data, baselines, experiments, evaluation, export)
 app/         Streamlit app: streamlit_app.py, qa_pipeline.py (NumPy), model.pkl, passages.jsonl, requirements.txt
 results/     every metric (JSON/CSV), figure, prediction file and the error analysis
-docs/        decisions log, concepts guide, feasibility notes, viva questions, video script, guides
 data/        downloaded by the notebook (not in the repository)
 ```
 
 ## 6. How to run
-**Notebook (Google Colab with a T4 GPU, recommended):** upload the notebook to Google Drive, open it with Colab, set the runtime to T4 GPU, and run all cells. It mounts Drive and writes `results/` and `app/model.pkl` next to the notebook. Steps and time estimates: [docs/COLAB_RUN.md](docs/COLAB_RUN.md). Running on a CPU is possible but slow for the pretrained fine-tuning (E4) and for E5.
+**Notebook (Google Colab with a T4 GPU, recommended):** upload the notebook to Google Drive, open it with Colab, set the runtime to T4 GPU, and run all cells. It mounts Drive and writes `results/` and `app/model.pkl` next to the notebook. Steps and time estimates:. Running on a CPU is possible but slow for the pretrained fine-tuning (E4) and for E5.
 
 **Web app locally:**
 ```
@@ -117,14 +116,7 @@ cd app
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-**Public link:** deploy `app/streamlit_app.py` on Streamlit Community Cloud from a public GitHub repository ([app/README.md](app/README.md), [docs/DEPLOY_AND_SUBMIT.md](docs/DEPLOY_AND_SUBMIT.md)).
-
 **Reproducibility:** one random seed (42; 42, 43, 44 for repeated runs) is set for every random choice; choices use validation data only; the test set is used for reporting.
 
 ## 7. Limitations
 Small data and test set (see the confidence intervals); one narrow domain; in-domain questions were written from the passages; the out-of-domain probe is general trivia (easy); the from-scratch models use word tokens (unknown words, no morphology); hand-chosen word lists not yet reviewed by a Swahili speaker. More in the report.
-
-## 8. Acknowledgements, licences and AI assistance
-Code: MIT (see LICENSE). Datasets keep their own licences (table above). The pretrained model `deepset/xlm-roberta-base-squad2` is CC BY 4.0; XLM-R and AfroXLMR are MIT. Libraries: PyTorch, NumPy, pandas, scikit-learn, matplotlib, Streamlit, Hugging Face Transformers (pretrained experiments only). Papers are listed in the report's reference section.
-
-
